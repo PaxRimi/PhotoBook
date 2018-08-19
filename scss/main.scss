@@ -37,12 +37,10 @@ header{
   display: flex;
   align-items: center;
   .container {
-    width: 1080px;
-    display: flex;
+    @include container();
     align-items: center;
     justify-content: space-between;
     padding: 0 30px;
-    margin: 0 auto;
     position: relative;
     img {
       width: 205px;
